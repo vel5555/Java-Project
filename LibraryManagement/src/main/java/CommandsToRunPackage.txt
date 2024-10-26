@@ -1,0 +1,9 @@
+Previous command: 
+   java views.HomePage
+
+  -- Execute them from java directory
+  run form java directory
+
+  try
+    javac -cp ./sqlite-jdbc.jar:./slf4j-simple.jar:./slf4j-api.jar dbconnect/*.java views/*.java 
+    java -cp .:./sqlite-jdbc.jar:./slf4j-simple.jar:./slf4j-api.jar views.HomePage
